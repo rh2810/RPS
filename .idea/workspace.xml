@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c602e72-01de-4c7a-b12b-7f890e066e48" name="Default" comment="Test">
-      <change beforePath="" afterPath="$PROJECT_DIR$/RockPaperScissors/RockPaperScissors.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPS.java" />
+    <list default="true" id="9c602e72-01de-4c7a-b12b-7f890e066e48" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +17,7 @@
       <file leaf-file-name="RPS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
+            <state relative-caret-position="748">
               <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -261,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523457550418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test">
+      <created>1523457674522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523457674522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -309,7 +314,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
+        <state relative-caret-position="748">
           <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />

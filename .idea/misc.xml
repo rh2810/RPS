@@ -7,7 +7,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

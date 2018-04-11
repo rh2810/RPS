@@ -48,9 +48,6 @@ public class RPS {
     private char AI() {
         Random rng = new Random();
         int Blasphemy = rng.nextInt(3); // uses 0, 1, and 2
-        int rock = 0;
-        int paper = 1;
-        int scissors = 2;
 
         if (Blasphemy == 0)
         {
@@ -64,11 +61,6 @@ public class RPS {
         {
         return 's';
         }
-        else
-        {
-        System.out.println("You are a Wizard, Harry!");
-        }
-        /*TODO: Create switch statement that returns 'r', 'p', or 's' depending on Blasphemy*/
 
         return '?';
     }

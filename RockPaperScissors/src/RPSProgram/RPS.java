@@ -18,10 +18,7 @@ public class RPS {
         while (userChar != 'q' && userChar != 'Q') {
             System.out.println("Either press r(Rock), p(Paper), or s(Scissor)");
             System.out.println("If you wish to quit, press q");
-        if (userChar != 'r' && userChar != 'p' && userChar != 's')
-        {
-          System.out.println("Get Rekt");
-        }
+
             // scan first character from user input
             userChar = input.nextLine().charAt(0);
 
@@ -33,7 +30,10 @@ public class RPS {
                     gameResult = rps.moveSet(Character.toLowerCase(userChar), rps.AI());
                     System.out.println(gameResult + '\n');
                     break;
+                case 'q' :
+                    break;
                 default:
+                    System.out.println("Invalid input, try again.\n");
                     break;
             }
         }
@@ -45,7 +45,7 @@ public class RPS {
      *
      * @return AI's move ('r', 'p', or, 's')
      */
-    private char AI() {
+    protected char AI() {
         Random rng = new Random();
         int Blasphemy = rng.nextInt(3); // uses 0, 1, and 2
 
@@ -69,14 +69,51 @@ public class RPS {
      * Generate String that states the result of the
      * two user's moves.
      *
-     * @param user1Move first user's move (r, p, or s)
-     * @param user2Move second user's move (r, p, or s)
+     * @param user1CMove first user's move (r, p, or s)
+     * @param user2CMove second user's move (r, p, or s)
      * @return winner, loser, draw, etc.
      */
-    private String moveSet(char user1Move, char user2Move) {
+    protected String moveSet(char user1CMove, char user2CMove) {
+        StringBuilder sb = new StringBuilder();
+        String user1SMove;
+        String user2SMove;
 
-        /*TODO: Write code that returns a String stating the result of the user and AI's move*/
+        switch (user1CMove) {
+            case 'r':
+                user1SMove = "Rock";
+                break;
+            case 'p':
+                user1SMove = "Paper";
+                break;
+            case 's':
+                user1SMove = "Scissor";
+                break;
+            default:
+                return null;
+        }
 
-        return "Error 404";
+        switch (user2CMove) {
+            case 'r':
+                user2SMove = "Rock";
+                break;
+            case 'p':
+                user2SMove = "Paper";
+                break;
+            case 's':
+                user2SMove = "Scissor";
+                break;
+            default:
+                return null;
+        }
+
+        //Example:
+        if(user1CMove == user2CMove) {
+            sb.append(user1SMove + "  vs  " + user2SMove + "\n");
+            sb.append("Tie!");
+        }
+
+        /*TODO: Write code that returns a String stating the result of the user1 and user2's move*/
+
+        return sb.toString();
     }
 }

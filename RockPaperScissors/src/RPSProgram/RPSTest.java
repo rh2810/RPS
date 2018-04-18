@@ -10,7 +10,7 @@ public class RPSTest {
     @Test
     public void testSmoke() {
         assertTrue(true);
-        assertTrue(true == true);
+        assertEquals(true, true);
     }
 
     @Test

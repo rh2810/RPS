@@ -4,6 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.*;
 
+
+/**
+ * Unit tests for program.
+ *
+ * @author Ryan Hurst
+ */
 public class RPSTest {
 
     // initialize rock, paper, scissors object

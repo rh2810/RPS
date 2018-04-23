@@ -4,7 +4,6 @@
     <list default="true" id="9c602e72-01de-4c7a-b12b-7f890e066e48" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPS.java" afterPath="$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPS.java" />
-      <change beforePath="$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPSTest.java" afterPath="$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPSTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="RPS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="189" column="14" lean-forward="true" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,12 +111,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RPSTest">
+  <component name="RunManager" selected="Application.RPS">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="RPS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="RPSProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="RPSProgram.RPS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RockPaperScissors" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -196,31 +214,6 @@
       <option name="PACKAGE_NAME" value="RPSProgram" />
       <option name="MAIN_CLASS_NAME" value="RPSProgram.RPSTest" />
       <option name="METHOD_NAME" value="testPaperVSRock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="RPSTest.testRockvsScissors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="RPSProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="RockPaperScissors" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="RPSProgram" />
-      <option name="MAIN_CLASS_NAME" value="RPSProgram.RPSTest" />
-      <option name="METHOD_NAME" value="testRockvsScissors" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -320,18 +313,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.RPSTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RPSTest.testRockvsScissors" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RPSTest.testScissorsVSPaper" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RPSTest.testPaperVSRock" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RPSTest.testInvalidMove" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RPSTest.testScissorsVSPaper" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RPSTest.testPaperVSRock" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RPSTest.testInvalidMove" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RPS" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RPSTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RPSTest.testInvalidMove" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RPSTest.testPaperVSRock" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RPSTest.testScissorsVSPaper" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RPSTest.testRockvsScissors" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RPS" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RPSTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RPSTest.testInvalidMove" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RPSTest.testPaperVSRock" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RPSTest.testScissorsVSPaper" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524488349306</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Reformatted text and added more comments">
+      <created>1524489326620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524489326620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -413,6 +413,9 @@
       <configuration name="RPSTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RPSTest - 2018.04.23 at 09h 13m 42s.xml">
+      <configuration name="RPSTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RPSTest - 2018.04.23 at 09h 46m 40s.xml">
       <configuration name="RPSTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RPSTest_testInvalidMove - 2018.04.23 at 08h 48m 28s.xml">
@@ -426,9 +429,6 @@
     </history-entry>
     <history-entry file="RPSTest_testInvalidMove - 2018.04.23 at 08h 52m 11s.xml">
       <configuration name="RPSTest.testInvalidMove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RPSTest_testPaperVSRock - 2018.04.20 at 09h 44m 30s.xml">
-      <configuration name="RPSTest.testPaperVSRock" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RPSTest_testPaperVSRock - 2018.04.20 at 09h 47m 14s.xml">
       <configuration name="RPSTest.testPaperVSRock" configurationId="JUnit" />
@@ -479,14 +479,15 @@
     <MESSAGE value="Tests added" />
     <MESSAGE value="added Win/Lose" />
     <MESSAGE value="added more Unit Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more Unit Tests" />
+    <MESSAGE value="Reformatted text and added more comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatted text and added more comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPS.java</url>
-          <line>117</line>
+          <line>120</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -564,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RockPaperScissors/src/RPSProgram/RPS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="189" column="14" lean-forward="true" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

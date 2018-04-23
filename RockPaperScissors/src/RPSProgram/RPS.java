@@ -40,36 +40,39 @@ public class RPS {
 
 
             // scan first character from user input
+            try {
+                userChar = input.nextLine().charAt(0);
 
-            userChar = input.nextLine().charAt(0);
 
+                // determine if user input was r, p, or s
 
-            // determine if user input was r, p, or s
+                switch (Character.toLowerCase(userChar)) {
 
-            switch (Character.toLowerCase(userChar)) {
+                    case 'r':
 
-                case 'r':
+                    case 'p':
 
-                case 'p':
+                    case 's':
 
-                case 's':
+                        gameResult = rps.moveSet(userChar, rps.AI());
 
-                    gameResult = rps.moveSet(userChar, rps.AI());
+                        System.out.println(gameResult + '\n');
 
-                    System.out.println(gameResult + '\n');
+                        break;
 
-                    break;
+                    case 'q':
 
-                case 'q':
+                        break;
 
-                    break;
+                    default:
 
-                default:
+                        System.out.println("Invalid input, try again.\n");
 
-                    System.out.println("Invalid input, try again.\n");
+                        break;
 
-                    break;
-
+                }
+            } catch (Exception e) {
+                System.out.println("Invalid input, try again.\n");
             }
 
         }
@@ -162,7 +165,7 @@ public class RPS {
                 sb.setLength(0);
                 sb.append("Invalid user input.");
             }
-          // Rock vs. ...
+            // Rock vs. ...
         } else if (user1SMove.equals("Rock")) {
             if (user2SMove.equals("Scissor"))
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Wins!");
@@ -170,7 +173,7 @@ public class RPS {
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Loses!");
             else
                 sb.append("Invalid user input.");
-          // Paper vs. ...
+            // Paper vs. ...
         } else if (user1SMove.equals("Paper")) {
             if (user2SMove.equals("Scissor"))
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Loses!");
@@ -178,7 +181,7 @@ public class RPS {
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Wins!");
             else
                 sb.append("Invalid user input.");
-          // Scissor vs. ...
+            // Scissor vs. ...
         } else if (user1SMove.equals("Scissor")) {
             if (user2SMove.equals("Paper"))
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Wins!");
@@ -186,7 +189,7 @@ public class RPS {
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Loses!");
             else
                 sb.append("Invalid user input.");
-          // Invalid input
+            // Invalid input
         } else
             sb.append("Invalid user input.");
 

@@ -50,7 +50,7 @@ public class RPS {
 
                 case 's':
 
-                    gameResult = rps.moveSet(Character.toLowerCase(userChar), rps.AI());
+                    gameResult = rps.moveSet(userChar, rps.AI());
 
                     System.out.println(gameResult + '\n');
 
@@ -154,8 +154,8 @@ public class RPS {
                 break;
 
             default:
-
-                return null;
+                user1SMove = "N/A1";
+                break;
 
         }
 
@@ -181,8 +181,8 @@ public class RPS {
                 break;
 
             default:
-
-                return null;
+                user2SMove = "N/A2";
+                break;
 
         }
 
@@ -195,12 +195,19 @@ public class RPS {
 
             sb.append("Tie!");
 
+            if(user1SMove.equals("N/A1") || user2SMove.equals("N/A2")) {
+                sb.setLength(0);
+                sb.append("Invalid user input.");
+            }
+
         } else if (user1SMove.equals("Rock")) {
             if (user2SMove.equals("Scissor"))
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Wins!");
 
             else if (user2SMove.equals("Paper"))
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Loses!");
+            else
+                sb.append("Invalid user input.");
 
         } else if (user1SMove.equals("Paper")) {
             if (user2SMove.equals("Scissor"))
@@ -208,6 +215,8 @@ public class RPS {
 
             else if (user2SMove.equals("Rock"))
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Wins!");
+            else
+                sb.append("Invalid user input.");
 
 
         } else if (user1SMove.equals("Scissor")) {
@@ -216,15 +225,11 @@ public class RPS {
 
             else if (user2SMove.equals("Rock"))
                 sb.append(user1SMove + "  vs  " + user2SMove + "\nUser Loses!");
+            else
+                sb.append("Invalid user input.");
 
         } else
             sb.append("Invalid user input.");
-
-
-
-
-
-        /*TODO: Write code that returns a String stating the result of the user1 and user2's move*/
 
 
         return sb.toString();

@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 /**
- * A program created for ISAT 215.
+ * A program created for ISAT 252.
  *
  * @author Tristan Collins, Dylan Tracey, and Ryan Hurst
  */
